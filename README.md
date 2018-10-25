@@ -6,5 +6,13 @@ client using curses ploting
 <pre><code>sudo apt-get install libncurses5-dev
 </code></pre>
 
+# Compile
+<pre><code>
+gcc s.c -lpthread           // for service
+gcc c.c -lpthread -lcurses //  for client
+</code></pre>
+
+# Screenshot
+ ![image](https://github.com/ldcodes/alphabet-war/blob/master/1.png)
 
 
